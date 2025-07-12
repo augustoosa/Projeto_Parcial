@@ -55,7 +55,7 @@ A proposta busca modelar os dados reais desses profissionais e permitir a manipu
 
 ## 📊 Diagrama de Classes
 
-![Diagrama de Classes]("C:\Users\augus\Downloads\POO 1\Entrega Parcial\src\Diagrama.png")
+<img width="1381" height="1433" alt="Diagrama" src="https://github.com/user-attachments/assets/bf7bce35-ba20-47ca-a631-4886b3548f3c" />
 
 ---
 
