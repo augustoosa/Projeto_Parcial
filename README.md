@@ -20,10 +20,9 @@ A proposta busca modelar os dados reais desses profissionais e permitir a manipu
 
 ### 📋 Estrutura do Projeto
 - **Classe Principal:** Interface textual com menu de opções implementado via `switch/case`.
-- **Entrada de Dados:** Utilização da classe `Scanner` para leitura de dados via teclado.
-- **Reflexividade:** Aplicada e marcada com `//Reflexividade` no código.
+- **Entrada de Dados:** Utilização da classe Leitura para entrada de dados via teclado.
 - **Encapsulamento:** Todos os atributos das classes entidade são `private`, com acesso e modificação via getters e setters.
-- **Setters:** Atribuições feitas exclusivamente através dos métodos setters (construtores não fazem atribuições diretas).
+- **Getters e Setters:** Atribuições feitas exclusivamente através dos métodos setters (construtores não fazem atribuições diretas).
 
 ### 👨‍👩‍👧‍👦 Herança
 - Classe-mãe: `Funcionario`  
