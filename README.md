@@ -10,7 +10,7 @@
 
 ## 📌 Descrição Geral
 
-Este projeto tem como objetivo simular um sistema interno utilizado por uma **empresa de desenvolvimento de software** para gerenciar diferentes **tipos de funcionários**, como **gerentes, programadores e estagiários**.
+Este projeto tem como objetivo simular um sistema interno utilizado por uma **empresa de desenvolvimento de software** para gerenciar diferentes **tipos de funcionários**, como **gerentes, programadores e analistas de dados**.
 
 A proposta busca modelar os dados reais desses profissionais e permitir a manipulação de informações como **nome**, **salário**, **departamento**, entre outros atributos específicos de cada categoria.
 
