@@ -29,7 +29,7 @@ A proposta busca modelar os dados reais desses profissionais e permitir a manipu
 - Subclasses:
   - `Gerente`
   - `Programador`
-  - `Estagiario`
+  - `Analista de Dados`
 - Cada subclasse possui **atributos únicos** e **comportamentos distintos**, respondendo à relação "É UM TIPO DE Funcionário".
 
 ### 🔁 Polimorfismo
@@ -37,16 +37,12 @@ A proposta busca modelar os dados reais desses profissionais e permitir a manipu
 - **Sobrescrita:** Métodos herdados da superclasse são redefinidos nas subclasses. Ex: `//Sobrescrita`
 
 ### 📦 Interface (Estrutura de Dados)
-- Implementação de uma interface com métodos para:
-  - Cadastrar funcionários
-  - Listar funcionários
-  - Remover funcionários
-  - Buscar funcionários por nome
+- Implementação de uma interface com métodos para serem sobrescritos
 
 ### ⚠️ Tratamento de Exceções
 - Criadas **duas exceções personalizadas**, como por exemplo:
-  - `SalarioInvalidoException`
-  - `FuncionarioNaoEncontradoException`
+  - `QtdEquipesInvException`
+  - `NivelSenioridadeInvException`
 - Métodos específicos lançam essas exceções e são tratados com `try/catch`.
 - **Não foi utilizado multicatching** ou exceções nativas como `NullPointerException`.
 
@@ -61,7 +57,7 @@ A proposta busca modelar os dados reais desses profissionais e permitir a manipu
 ## 🚀 Execução
 
 O projeto está funcional, compila corretamente e permite:
-- Cadastro e exibição de funcionários (gerentes, programadores, estagiários)
+- Cadastro e exibição de funcionários (gerentes, programadores, eanalistas)
 - Tratamento de erros ao tentar ações inválidas
 - Navegação via menu de opções no terminal
 
@@ -71,15 +67,11 @@ O projeto está funcional, compila corretamente e permite:
 
 - Cada classe ou interface foi salva em seu próprio arquivo `.java`
 - O nome e RA estão comentados no início de cada arquivo
-- Os arquivos foram compactados conforme solicitado, contendo apenas `.java` e o diagrama
-
 ---
 
 ## 📝 Observações Finais
 
 - **Sem uso de banco de dados**
-- **Sem interface gráfica**
+- **Sem interface gráfica (será utilizada no projeto final)**
 - **Sem validação de dados como CPF, senhas, etc.**
-- Projeto está de acordo com as regras da entrega parcial
-
 ---
